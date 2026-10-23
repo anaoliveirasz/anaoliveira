@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'sha256-4kK4YRprPTiXoS4KGHZ11+30zPyVdwUijgZo/Fq3XLE='; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'sha256-4kK4YRprPTiXoS4KGHZ11+30zPyVdwUijgZo/Fq3XLE=' https://static.cloudflareinsights.com; connect-src https://cloudflareinsights.com; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Ana Oliveira</title>
 <meta name="claude:viewport-fit-sides" content="cover">
@@ -513,5 +513,7 @@ a { color: inherit; text-decoration: none; }
   copyButton('copy-coupon', 'coupon-code');
   copyButton('copy-mail', 'mail-text');
 </script>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "92b2f58f2f444ed28ea18f8a353f5e6d"}'></script><!-- End Cloudflare Web Analytics -->
+
 </body>
 </html>
